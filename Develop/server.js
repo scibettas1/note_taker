@@ -14,6 +14,8 @@ app.use(express.json());
 
 require('./html-routes.js')(app);
 
+//app.use(express.static(__dirname + '/public'));
+
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
