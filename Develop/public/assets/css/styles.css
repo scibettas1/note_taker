@@ -20,11 +20,13 @@ html, body {
   width: 100%;
   outline: none;
   border: none;
+  margin: 10px;
 }
 
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
+  width: 100%;
   padding-top: 15px;
 }
 
