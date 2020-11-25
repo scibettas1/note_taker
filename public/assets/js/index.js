@@ -55,8 +55,9 @@ const handleNoteSave = function () {
     title: $noteTitle.val(),
     text: $noteText.val(),
   };
-
+console.log("is it saving?")
   saveNote(newNote).then(() => {
+    console.log("hey its running")
     getAndRenderNotes();
     renderActiveNote();
   });
